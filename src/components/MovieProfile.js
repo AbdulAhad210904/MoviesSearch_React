@@ -35,7 +35,6 @@ const MovieProfile = ({ imdbID }) => {
             <p>Plot: {movie.Plot}</p>
             <p>IMDB Rating: {movie.imdbRating}</p>
             <a href={`https://www.imdb.com/title/${imdbID}`} target="_blank" rel="noopener noreferrer">View on IMDB</a>
-            {/* Add more details as needed */}
         </div>
     );
 };
